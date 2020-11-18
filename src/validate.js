@@ -1,8 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import "./App"
 import Button from '@material-ui/core/Button'
 import TextField from '@material-ui/core/TextField'
-import { makeStyles } from '@material-ui/core/styles';
 
 const initialState = {
   email: "",
@@ -12,7 +11,6 @@ const initialState = {
 };
 
 var validate = 0;
-var submit = false;
 export default class ValiationForm extends React.Component {
   state = initialState;
 
