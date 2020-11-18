@@ -1,0 +1,15 @@
+import React from 'react';
+import './App.css';
+import ValidationForm from './validate.js'
+
+
+function App() {
+    return (
+        <div className="App">
+            <ValidationForm />
+
+    </div>
+  );
+}
+
+export default App;
