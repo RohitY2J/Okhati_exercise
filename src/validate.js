@@ -76,7 +76,7 @@ export default class ValiationForm extends React.Component {
 
   render() {
 
-  	if (validate == 0) {
+  	if (validate === 0) {
         return (
             <form onSubmit = {this.handleSubmit}>
                 <div className="header" >
